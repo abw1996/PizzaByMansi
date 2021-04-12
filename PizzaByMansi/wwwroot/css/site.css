@@ -1,0 +1,345 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    font: bold 12px;
+    font-family: "Bebas Neue script=latin rev=1";
+    color: slategrey;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  overflow-x: hidden;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+.bit-of-spice {
+    font: bold 60px broadway;
+    color: slategrey;
+    cursor: default;
+}
+
+    .bit-of-spice:hover {
+        color: #c64747;
+        cursor: default;
+    }
+
+.nav-link {
+    font: bolder 20px Bebas Neue;
+    /*  font-family: "Bebas Neue script=latin rev=1"; */
+    color: slategrey !important;
+}
+
+    .nav-link:hover {
+        font: bolder 21px Bebas Neue;
+        color: #c64747 !important;
+        /*  font-family: "Bebas Neue script=latin rev=1"; */
+    }
+
+h1.text-theme {
+    font: bold 60px broadway;
+    color: slategrey;
+    cursor: default;
+}
+
+p1.text-theme {
+    font: bolder 30px Bebas Neue;
+    color: slategrey;
+    cursor: default;
+}
+
+body {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+
+.title {
+    text-align: left;
+}
+
+.menu-title {
+    color: slategrey;
+    text-align: center;
+    font: bold 55px broadway;
+    text-decoration: underline;
+    cursor: default;
+}
+
+.menu-subtitle {
+    color: slategrey;
+    text-align: center;
+    font: bold 40px broadway;
+    cursor: default;
+}
+
+.menu-item {
+    color: #c64747;
+    text-decoration: none;
+    font: bolder 30px Bebas Neue;
+    text-align: center;
+    cursor: default;
+}
+
+    .menu-item:hover {
+        color: slategrey;
+    }
+
+.menu-description {
+    color: slategrey;
+    font: bold 30px Bebas Neue;
+    text-align: center;
+    cursor: default;
+}
+
+.menu-table {
+    width: 100%;
+    cursor: default;
+}
+
+.table1 {
+    width: 50%;
+    cursor: default;
+}
+
+.table2 {
+    width: 33.3%;
+    cursor: default;
+}
+
+hr {
+    border-top: 1px solid #c64747;
+}
+
+.touch-of-spice {
+    color: slategrey;
+    font: bold 30px Bebas Neue;
+    text-align: center;
+    cursor: default;
+}
+
+    .touch-of-spice:hover {
+        color: #c64747;
+        font: bold 30px Bebas Neue;
+        text-align: center;
+        cursor: default;
+    }
+
+.promo {
+    width: 50%;
+    justify-content: center;
+    border-radius: 200px;
+    border: 2px solid #c64747;
+    margin: auto;
+}
+
+.builder {
+    width: 70%;
+    margin: auto;
+}
+
+.built {
+    width: 70%;
+    margin: auto;
+    border: 2px solid #c64747;
+}
+
+.builder:hover {
+    border: 2px solid #c64747;
+}
+
+@media (max-width: 1500px) {
+    .homie {
+        margin-top: 0px !important;
+        background-color: white !important;
+    }
+
+    .background-pizza {
+        visibility: hidden;
+    }
+
+    h1.text-theme {
+        color: slategrey !important;
+    }
+
+    p1.text-theme {
+        color: slategrey !important;
+    }
+}
+
+@media (max-width: 1300px) {
+    .bit-of-spice {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        margin-right: 2px !important;
+        margin-left: 2px !important;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .promo {
+        border-radius: 1px;
+    }
+
+    .bit-of-spice {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .promo {
+        width: 100%;
+    }
+
+    .map {
+        visibility:hidden;
+    }
+
+    .contacts {
+        font-size: 20px !important;
+    }
+
+    .contacts-link {
+        font-size: 20px !important;
+    }
+
+    .contact-marg {
+        width: 100% !important;
+    }
+
+    .bit-of-spice {
+        font-size: 40px !important;
+    }
+
+    .option {
+        font-size: 20px !important;
+    }
+
+}
+
+.navbar-toggler {
+    margin: auto;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: auto;
+    width: auto;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: auto;
+    width: auto;
+}
+
+.contacts {
+    color: slategrey;
+    font: bold 30px Bebas Neue;
+    text-align: center;
+    cursor: default;
+}
+
+.contacts-link {
+    color: slategrey;
+    font: bold 30px Bebas Neue;
+    text-align: center;
+    cursor: default;
+    text-decoration: none;
+}
+
+    .contacts-link:hover {
+        color: #c64747;
+        font: bold 30px Bebas Neue;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+
+.contact-marg {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.background-pizza {
+    width: calc(100% - 15px);
+    height: auto;
+    position: fixed;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.homie {
+    margin-top: 140px;
+    background-color: rgba(185, 177, 177, 0.18);
+}
+
+.option {
+    color: slategrey;
+    font: bold 30px Bebas Neue;
+    text-align: center;
+    cursor: default;
+}
+

@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PizzaByMansi</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header class="row">
+        <div class="col-lg-12 col-xl-4 title">
+            <!-- <h1>PIZZA BY MANSI</h1> -->
+            <p1 class="bit-of-spice">
+                P
+            </p1>
+            <p1 class="bit-of-spice">
+                I
+            </p1>
+            <p1 class="bit-of-spice">
+                Z
+            </p1>
+            <p1 class="bit-of-spice">
+                Z
+            </p1>
+            <p1 class="bit-of-spice">
+                A <br>
+            </p1>
+            <hr style="border-top: 1px solid; border-top-color: slategrey">
+            <p1 class="bit-of-spice">
+                B
+            </p1>
+            <p1 class="bit-of-spice">
+                Y
+            </p1>
+            <p1 class="bit-of-spice">
+                M
+            </p1>
+            <p1 class="bit-of-spice">
+                A
+            </p1>
+            <p1 class="bit-of-spice">
+                N
+            </p1>
+            <p1 class="bit-of-spice">
+                S
+            </p1>
+            <p1 class="bit-of-spice">
+                I
+            </p1>
+        </div>
+        <div class="col-lg-12 col-xl-8">
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container">
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" id="navbar">
+                        <ul class="navbar-nav flex-grow-1 justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Pizza">Pizza</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Sandwiches">Sandwiches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/SaladSide">Salad and Sides</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-lg-12 col-xl-12">
+            @RenderBody()
+            </div>
+        </div>
+
+        <footer class="footer text-muted row">
+            <div class="col-11" style="margin: 5px; color: slategrey">
+                © 2021 - Pizza_By_Mansi - <a style="color: slategrey" href="/">Home</a> - <a href="http://www.facebook.com/NY-Style-Deli-and-Pizza-by-Mansi-Woodstock-GA-811146812278446/" class="fa fa-facebook"></a>
+            </div>
+        </footer>
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @RenderSection("Scripts", required: false)
+</body>
+</html>
